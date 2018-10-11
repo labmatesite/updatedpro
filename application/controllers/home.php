@@ -30,9 +30,9 @@ class home extends CI_Controller {
 		function index()
 	{
 		$data['data'] = $this->mymodel->viewdata();
-		// $this->load->view('index', $data);
+		$this->load->view('index', $data);
 		// echo "<pre>";
-		print_r($data);
+		// print_r($data);
 	
 	}
 }
